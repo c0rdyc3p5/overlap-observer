@@ -1,0 +1,17 @@
+{
+  "name": "overlap-observer",
+  "version": "0.0.1",
+  "description": "A simple library used to create an observer that can watch when two elements overlap",
+  "repository": "https://github.com/c0rdyc3p5/overlap-observer.git",
+  "author": "c0rdyc3p5",
+  "license": "MIT",
+  "main": "dist/ElementOverlapWatcher.class.js",
+  "types": "dist/ElementOverlapWatcher.class.d.ts",
+  "scripts": {
+    "build": "tsc && uglifyjs dist/OverlapObserver.class.js --compress --mangle -o dist/OverlapObserver.class.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "uglify-js": "^3.17.4"
+  }
+}
